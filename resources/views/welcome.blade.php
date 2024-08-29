@@ -108,7 +108,7 @@
                 </tr>
                 <tr>
                     <td>Berlaku Hingga</td>
-                    <td>: SEUMUR HIDUP</td>
+                    <td>: SEUMUR HIDUP </td>
                 </tr>
             </table>
         </div>
