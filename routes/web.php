@@ -73,3 +73,10 @@ Route::get('/articles/{id}', [ArticleController::class, 'idsaya']);
 Route::get('/', function () {
     return view('welcome');
 });
+
+// Route::get('/greeting', function () { 
+//     return view('blog.hello', ['name' => 'Hasan']); 
+//     }); 
+
+Route::get('/greeting', [WelcomeController::class, 
+'greeting']);
